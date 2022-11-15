@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country App Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .flag-img{
+            height:200px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center">
+            <div class="container-md">
+              <a class="navbar-brand" href="#">Country Information App</a>
+            </div>
+          </nav>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <input type="text" class="form-control" id="InputName" placeholder="Write Country Name">
+                    <button id="btnName" class="btn btn-primary mt-3">Information</button>
+                </div>
+            </div>
+            <p class=" p-2 mt-2" id="alertText"></p>
+            <div class="row mt-5">
+                <div class="col-md-6 mt-3">
+                    <h4>Information</h4>
+                    <ul class="list-group" id="infoStore">
+                        
+                    </ul>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <h4>Flage</h4>
+                    <img class="img-fluid flag-img" src="flag.jpg" alt="Image" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
